@@ -17,43 +17,40 @@
   },
   "topbarLinks": [
     {
-        "name": "Link 1",
-        "url": "https://example.com"
-    },
-    {
-        "name": "Link 2",
-        "url": "https://example.com"
+      "name": "Support",
+      "url": "mailto:hi@mintlify.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Cta Button",
-    "url": "https://example.com"
+    "name": "Dashboard",
+    "url": "https://dashboard.mintlify.com"
   },
   "tabs": [
     {
-        "name": "Tab 1",
-        "url": "https://example.com"
-    },
-    {
-        "name": "Tab 2",
-        "url": "https://example.com"
+      "name": "API Reference",
+      "url": "api-reference"
     }
   ],
   "anchors": [
     {
-      "name": "Anchor 1",
+      "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://example.com"
+      "url": "https://mintlify.com/docs"
     },
     {
-      "name": "Anchor 2",
+      "name": "Community",
       "icon": "slack",
-      "url": "https://example.com"
+      "url": "https://mintlify.com/community"
+    },
+    {
+      "name": "Blog",
+      "icon": "newspaper",
+      "url": "https://mintlify.com/blog"
     }
   ],
   "navigation": [
     {
-      "group": "Group 1",
+      "group": "Get Started",
       "pages": [
         "introduction",
         "quickstart",
@@ -61,7 +58,7 @@
       ]
     },
     {
-      "group": "Group 2",
+      "group": "Essentials",
       "pages": [
         "essentials/markdown",
         "essentials/code",
@@ -72,13 +69,13 @@
       ]
     },
     {
-      "group": "Group 3",
+      "group": "API Documentation",
       "pages": [
         "api-reference/introduction"
       ]
     },
     {
-      "group": "Group 4",
+      "group": "Endpoint Examples",
       "pages": [
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
@@ -87,7 +84,8 @@
     }
   ],
   "footerSocials": {
-    "social 1": "https://example.com",
-    "social 2": "https://example.com"
+    "x": "https://x.com/mintlify",
+    "github": "https://github.com/mintlify",
+    "linkedin": "https://www.linkedin.com/company/mintsearch"
   }
 }
