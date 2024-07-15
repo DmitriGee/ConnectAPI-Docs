@@ -32,11 +32,11 @@
   "tabs": [
     {
         "name": "Tab 1",
-        "url": "https://example.com"
+        "url": "tab-1"
     },
     {
         "name": "Tab 2",
-        "url": "https://example.com"
+        "url": "tab-2"
     }
   ],
   "anchors": [
