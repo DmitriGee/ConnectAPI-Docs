@@ -74,15 +74,15 @@
     {
       "group": "Group 3",
       "pages": [
-        "api-reference/introduction"
+        "tab-1/introduction"
       ]
     },
     {
       "group": "Group 4",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "tab-1/endpoint/get",
+        "tab-1/endpoint/create",
+        "tab-1/endpoint/delete"
       ]
     }
   ],
