@@ -1,93 +1,34 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
-  "favicon": "/favicon.svg",
-  "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
-  },
-  "topbarLinks": [
-    {
-        "name": "Link 1",
-        "url": "https://example.com"
+    "$schema": "https://mintlify.com/schema.json",
+    "name": "ConnectAPI Documentation",
+    "favicon": "/favicon.svg",
+    "colors": {
+        "primary": "#0D9373",
+        "light": "#07C983",
+        "dark": "#0D9373",
+        "anchors": {
+            "from": "#0D9373",
+            "to": "#07C983"
+        }
     },
-    {
-        "name": "Link 2",
-        "url": "https://example.com"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Cta Button",
-    "url": "https://example.com"
-  },
-  "tabs": [
-    {
-        "name": "Tab 1",
-        "url": "tab-1"
-    },
-    {
-        "name": "Tab 2",
-        "url": "tab-2"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Anchor 1",
-      "icon": "book-open-cover",
-      "url": "https://example.com"
-    },
-    {
-      "name": "Anchor 2",
-      "icon": "slack",
-      "url": "https://example.com"
-    }
-  ],
-  "navigation": [
-    {
-      "group": "Group 1",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
-    },
-    {
-      "group": "Group 2",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "Group 3",
-      "pages": [
-        "tab-1/introduction"
-      ]
-    },
-    {
-      "group": "Group 4",
-      "pages": [
-        "tab-1/endpoint/get",
-        "tab-1/endpoint/create",
-        "tab-1/endpoint/delete"
-      ]
-    }
-  ],
-  "footerSocials": {
-    "social 1": "https://example.com",
-    "social 2": "https://example.com"
-  }
+    "tabs": [
+        {
+            "name": "API Reference",
+            "url": "ref"
+        }
+    ],
+    "navigation": [
+        {
+            "group": "Getting Started",
+            "pages": [
+                "docs/introduction"
+            ]
+        },
+        {
+            "group": "API Framework",
+            "pages": [
+                "ref/framework"
+            ]
+        }
+    ]
 }
